@@ -31,6 +31,8 @@ class Century
         end
     end
 end
-b4=Century.new(2000)
-b4.solve
+# b4=Century.new(2000)
+# b4.solve
+
+# bai5
 
