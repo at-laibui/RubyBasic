@@ -6,9 +6,9 @@ class Fibonacci
   end
 end
 # fi = Fibonacci.new()
-# puts fi.solve_fi(4)
+# puts fi.solve_fi(8)
 # puts fi.solve_fi(3)
-#cau 6
+# #cau 6
 
 class PrimeNumber
   def check_prime(s)
@@ -20,8 +20,8 @@ class PrimeNumber
   end
 end
 
-# prime = PrimeNumber.new()
-# p prime.check_prime(7)
+prime = PrimeNumber.new()
+p prime.check_prime(23)
 
 #cau7
 
@@ -35,5 +35,5 @@ class Perfectnumber
     return false
   end
 end
-per = Perfectnumber.new()
-p per.check_perfect(7)
+# per = Perfectnumber.new()
+# p per.check_perfect(7)
