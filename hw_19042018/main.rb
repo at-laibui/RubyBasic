@@ -4,7 +4,6 @@ $client = Mysql2::Client.new(:host => "localhost", :username => "root", :passwor
 $client.query("use hw19042");
 class Main 
   def AddCustomer(cus)
-    p cus
     $client.query("INSERT INTO customers(name, gender, joindate) VALUES ('#{cus.name}', #{cus.gender.to_i},'#{cus.joindate}')");
     @ID = $client.query("SELECT MAX(cus_id) FROM customers").first["MAX(cus_id)"]
     puts "Add succesful Your ID: #{@ID}"
@@ -47,7 +46,7 @@ end
       main.AddCustomer(cus)
     when "2"
       main.AddProduct
-      puts "you bought: #{$pro_name} quantity: #{$quantity}"
+      puts "You bought: #{$pro_name} Quantity: #{$quantity}"
     when "3"
       main.ShowProduct
     when "4"

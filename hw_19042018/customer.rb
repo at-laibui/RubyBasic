@@ -6,10 +6,11 @@ class Customer < Person
     @name = gets.chomp()
     puts "enter gender: "
     @gender = gets.chomp()
-    puts "enter joindate: "
     @joindate = DateTime.now.strftime("%Y-%m-%d")
   end
 end
+
+
 # CREATE TABLE customers(
 #   cus_id INT NOT NULL AUTO_INCREMENT,
 #   name varchar(200),

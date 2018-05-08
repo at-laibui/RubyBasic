@@ -1,0 +1,1 @@
+SELECT pro_name,SUM(quantity) FROM products Where cus_id= 7 GROUP BY pro_name
