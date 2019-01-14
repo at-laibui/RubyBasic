@@ -6,3 +6,5 @@ def	block_test
     puts	"We're	back	in	the	method!"
 end
 block_test
+def test12
+end
