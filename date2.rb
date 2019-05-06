@@ -32,4 +32,3 @@ ob2 = Class1.new(3,4)
 ob1.set_var(100)
 ob1.print_var
 ob2.print_var
- 
